@@ -82,6 +82,8 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -231,7 +233,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-
+.logo
+{
+  background-color: white;
+  border-radius: 20%;
+  
+}
 
 
 
@@ -359,9 +366,9 @@ color: black;
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb(54, 1, 59);
 }
-.project h2 {
+.project h2, h3 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
@@ -391,7 +398,7 @@ color: black;
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 14px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -555,11 +562,15 @@ color: black;
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+ 
+  padding: 0 0 60px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+
+
+  
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -621,7 +632,13 @@ color: black;
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
+
+.social-icon{
+  
+ margin-top: 10px;
+}
 .footer img {
+  
   width: 26%;
 }
 .footer p {
