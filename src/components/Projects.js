@@ -44,7 +44,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Galeria</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Separaciones</Nav.Link>
+                      <Nav.Link eventKey="second">Rupturas</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Info</Nav.Link>
